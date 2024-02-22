@@ -3,7 +3,6 @@
 import { useDynamicQuery } from "@/hooks/use-dynamic-query";
 import { components } from "@/types/generated-types";
 import { useState } from "react";
-import { debounce } from "lodash";
 
 type ClientComponentProps = {
   initialData: components["schemas"]["Pet"];
